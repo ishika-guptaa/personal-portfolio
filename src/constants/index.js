@@ -277,6 +277,42 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
+    title: "Dream Center",
+    github: "https://github.com/ishika-guptaa/real-estate-website",
+    link: "https://real-estate-website-fr.vercel.app/",
+    image: chargeswap,
+    content:
+      "It provides a robust platform for users to explore real estate listings, manage property details, and securely handle user authentication.",
+       stack:[
+        {
+          id: "icon-1",
+         icon: AiFillHtml5,
+          name: "HTML",
+        },
+        {
+          id: "icon-2",
+          icon: DiCss3,
+          name: "CSS",
+        },
+        {
+          id: "icon-3",
+           icon: SiJavascript,
+          name: "JavaScript"
+        },
+        {
+          id: "icon-4",
+          icon: SiReact,
+          name: "React"
+        },
+        {
+          id: "icon-5",
+          icon: SiTailwindcss,
+          name: "TailwindCSS"
+        },
+       ]
+  },
+  {
+    id: "project-2",
     title: "Picture Finder Hub",
     github: "https://github.com/ishika-guptaa/picture-finder-hub",
     link: "https://picture-finder-hub.netlify.app/",
@@ -302,7 +338,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-2",
+    id: "project-3",
     title: "Task Tracker",
     github: "https://github.com/ishika-guptaa/task-tracker",
     link: "https://task-tracker-i1gl.onrender.com/",
@@ -335,30 +371,10 @@ export const projects = [
         icon: SiTailwindcss,
         name: "TailwindCSS"
       },
-      // {
-      //   id: "icon-3",
-      //   icon: SiNextdotjs,
-      //   name: "Next.js"
-      // },
-      // {
-      //   id: "icon-4",
-      //   icon: SiIpfs,
-      //   name: "IPFS"
-      // },
-      // {
-      //   id: "icon-5",
-      //   icon: SiSolidity,
-      //   name: "Solidity"
-      // },
-      // {
-      //   id: "icon-6",
-      //   icon: IoIosNotificationsOutline,
-      //   name: "Push Protocol"
-      // },
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
     title: "Calculator",
     github: "https://github.com/ishika-guptaa/calculator",
     link: "https://quick-calcii.netlify.app/",
@@ -382,265 +398,7 @@ export const projects = [
           name: "JavaScript"
         },
        ]
-    //   stack: [
-    //   {
-    //     id: "icon-1",
-    //     icon: SiReact,
-    //     name: "React"
-    //   },
-    //   {
-    //     id: "icon-3",
-    //     icon: SiWeb3Dotjs,
-    //     name: "Web3.js"
-    //   },
-    //   {
-    //     id: "icon-4",
-    //     icon: SiSolidity,
-    //     name: "Solidity"
-    //   },
-    //   {
-    //     id: "icon-5",
-    //     icon: FaHardHat,
-    //     name: "HardHat"
-    //   },
-    //   {
-    //     id: "icon-6",
-    //     icon: SiIpfs,
-    //     name: "IPFS"
-    //   },
-    //   {
-    //     id: "icon-7",
-    //     icon: SiArduino,
-    //     name: "Arduino"
-    //   },
-    //   {
-    //     id: "icon-8",
-    //     icon: IoIosNotificationsOutline,
-    //     name: "Push Protocol"
-    //   },
-    // ],
-  },
-  // {
-  //   id: "project-4",
-  //   title: "Samsotech Table Management System",
-  //   github: "",
-  //   link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-  //   image: placeicon,
-  //   content:
-  //     "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiDotnet,
-  //       name: "Dot Net Core MVC 6"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiBootstrap,
-  //       name: "Bootstrap"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: DiMsqlServer,
-  //       name: "MS Sql Server"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiJquery,
-  //       name: "jQuery"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiTwilio,
-  //       name: "Twillio"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-5",
-  //   title: "Non-Teaching Recruitment Portal, NITK",
-  //   github: "",
-  //   link: "http://recruitment.nitk.ac.in/",
-  //   image: recruitment,
-  //   content:
-  //     "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiRubyonrails,
-  //       name: "Ruby on Rails"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiTailwindcss,
-  //       name: "TailwindCSS"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiJquery,
-  //       name: "jQuery"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-6",
-  //   title: "Career Development Centre, NITK Website",
-  //   github: "",
-  //   link: "http://cdc.nitk.ac.in/",
-  //   image: cdc,
-  //   content:
-  //     "The official website of CDC, NITK with a custom built CMS.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiRubyonrails,
-  //       name: "Ruby on Rails"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiBootstrap,
-  //       name: "Bootstrap"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiJavascript,
-  //       name: "JavaScript"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-7",
-  //   title: "Huntly",
-  //   github: "",
-  //   link: "https://devfolio.co/projects/huntly-b5a9",
-  //   image: huntly,
-  //   content:
-  //     "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiDjango,
-  //       name: "Django Rest Framework"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiFlutter,
-  //       name: "Flutter"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiReplit,
-  //       name: "Replit"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiFlask,
-  //       name: "Flask"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiFigma,
-  //       name: "Figma"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: SiGooglemaps,
-  //       name: "Google Maps API"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-8",
-  //   title: "Cluboard",
-  //   github: "https://github.com/mittal-parth/Cluboard",
-  //   link: "",
-  //   image: cluboard,
-  //   content:
-  //     "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiDjango,
-  //       name: "Django"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: AiFillHtml5,
-  //       name: "HTML"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: DiCss3,
-  //       name: "CSS"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiJavascript,
-  //       name: "JavaScript"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiBootstrap,
-  //       name: "Bootstrap"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: SiChartdotjs,
-  //       name: "Chart.js"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-9",
-  //   title: "Cash Flow Minimiser",
-  //   github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-  //   link: "https://minimise-cash-flow.netlify.app/",
-  //   image: cash_flow,
-  //   content:
-  //     "A React application to help users visualise and minimise cash flow among multiple transactions.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: AiFillHtml5,
-  //       name: "HTML"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: DiCss3,
-  //       name: "CSS"
-  //     }
-  //   ],
-  // },
-  // {
-  //   id: "project-10",
-  //   title: "Portfolio",
-  //   github: "https://github.com/mittal-parth/personal-portfolio",
-  //   link: "https://parthmittal.netlify.app/",
-  //   image: portfolio,
-  //   content: "Personal portfolio website with React and Tailwind CSS.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiTailwindcss,
-  //       name: "Tailwind CSS"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: AiFillHtml5,
-  //       name: "HTML"
-  //     },
-  //   ],
-  // },
+  }
 ];
 
 export const blogPosts = [
